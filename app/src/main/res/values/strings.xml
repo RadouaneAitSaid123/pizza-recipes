@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pizza recipes</string>
+    <string name="pizza_recipes">Pizza Recipes</string>
+    <string name="textview">Make your Pizza</string>
+    <string name="mon_logo">mon logo</string>
+    <string name="spinach_pizza">Spinach Pizza</string>
+    <string name="_2">2</string>
+    <string name="_25_min">25 min</string>
+    <string name="pizza_rec">Pizza Recipes</string>
+</resources>

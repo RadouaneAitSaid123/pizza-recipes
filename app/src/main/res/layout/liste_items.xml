@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/image_pizza"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/pizza1" />
+    <TextView
+        android:id="@+id/idp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/pizza_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/image_pizza"
+        android:text="@string/spinach_pizza"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ic_person"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/pizza_name"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/image_pizza"
+        android:src="@mipmap/seul" />
+
+    <TextView
+        android:id="@+id/nbr_ingred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ic_person"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/ic_person"
+        android:text="@string/_2"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/ic_time"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/ic_person"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/image_pizza"
+        android:src="@mipmap/montre_chronographe" />
+
+    <TextView
+        android:id="@+id/periode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ic_time"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/ic_time"
+        android:text="@string/_25_min"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/ic_favorite"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/partager" />
+
+</RelativeLayout>
